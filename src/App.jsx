@@ -1651,6 +1651,7 @@ export default function App() {
       width: "100%", minHeight: "100dvh", maxWidth: 480, margin: "0 auto",
       background: COLORS.bg, position: "relative", overflow: "hidden",
       fontFamily: "'Inter', sans-serif", display: "flex", flexDirection: "column",
+      paddingTop: "env(safe-area-inset-top, 0px)",
     }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
